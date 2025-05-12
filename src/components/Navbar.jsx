@@ -4,7 +4,7 @@ export function Navbar() {
         <nav className="shadow-2xl z-50 shadow-stone-900 fixed top-10 inset-x-0 mx-auto bg-[#1a1a1a] py-4 max-w-fit px-8 rounded-lg border-stone-500 border">
             <ul className="  flex font-medium justify-around items-center gap-5 ">
                 <li>
-                    <a href="#home" className=" font-medium hover:text-[#74acff] transition-colors">
+                    <a href="#home" className=" font-medium hover:text-[#74acff] transition-colors" title="Home">
                         <span className="md:block hidden">
                             Home
                         </span>
@@ -19,7 +19,7 @@ export function Navbar() {
                 </li>
                 <li>
 
-                    <a href="#technologies" className=" font-medium hover:text-[#74acff] transition-colors">
+                    <a href="#technologies" className=" font-medium hover:text-[#74acff] transition-colors" title="Technologies">
                         <span className="md:block hidden">About</span>
 
                         <span className="md:hidden block"><svg className="w-7 h-7 text-[#74acff] " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@ export function Navbar() {
 
                 </li>
                 <li>
-                    <a href="#projects" className="font-medium hover:text-[#74acff]  transition-colors">
+                    <a href="#projects" className="font-medium hover:text-[#74acff]  transition-colors" title="Projects">
                         <span className="md:block hidden">
                             Projects
                         </span>
@@ -47,7 +47,8 @@ export function Navbar() {
                     </a>
                 </li>
                 <li>
-                    <a href="#contact" className=" font-medium hover:font-medium hover:text-[#74acff]  transition-colors">
+                    <a href="#contact" className=" font-medium hover:font-medium hover:text-[#74acff]  transition-colors" title="Contact">
+                        
                         <span className="md:block hidden">
                             Contact
                         </span>
