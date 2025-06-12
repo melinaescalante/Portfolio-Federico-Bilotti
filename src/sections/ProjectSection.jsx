@@ -2,7 +2,7 @@ import { CardVertical } from "../components/CardVertical";
 import AnimatedContent from '../Animations/AnimatedContent/AnimatedContent'
 import { ButtonCustom } from "../components/ButtonCustom";
 const projects = [{
-    name: 'Boids- DOTS',
+    name: 'Boids - DOTS',
     description: 'Simulation of birds in Unity with DOTS (Data-Oriented Technology Stack), to improve performance and data processing efficiency.',
     link: 'https://github.com/FedericoBilotti/Boids-DOTS',
     img: 'projects/dots.gif',
