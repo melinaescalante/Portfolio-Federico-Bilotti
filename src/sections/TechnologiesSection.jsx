@@ -8,7 +8,7 @@ const technologies = [{
 
 },
 {
-    name: 'Unreal Engine',
+    name: 'Unreal',
     description: 'Motor Graphic',
     img: 'techs/unreal.png',
     background:'bg-[#ffffff4a]'
