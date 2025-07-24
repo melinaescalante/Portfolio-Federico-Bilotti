@@ -22,14 +22,14 @@ export function HomeSection() {
             >
 
                 <span className="font-semibold text-sm text-[#e5e7eb] z-10">BASED IN ARGENTINA</span>
-                <div className="flex flex-col gap-3 items-center justify-center flex-wrap">
+                <div className="flex flex-col gap-2 items-center justify-center flex-wrap">
 
                     <BlurText
                         text="Video Game Programmer"
                         delay={100}
                         animateBy="words"
                         direction="top"
-                        className="lg:text-7xl text-5xl font-bold text-center break-words text-[#2b7fff] justify-center"
+                        className="lg:text-7xl text-4xl font-bold text-center break-words text-[#2b7fff] justify-center leading-12"
 
                     ></BlurText>
                     <BlurText
@@ -37,7 +37,7 @@ export function HomeSection() {
                         delay={300}
                         animateBy="words"
                         direction="top"
-                        className="break-words text-5xl lg:text-7xl mt-0 font-bold text-center justify-center"
+                        className="break-words text-4xl lg:text-7xl mt-0 font-bold text-center justify-center"
 
                     ></BlurText>
                 </div>
