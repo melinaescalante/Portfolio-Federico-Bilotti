@@ -1,7 +1,7 @@
 export function ButtonCustom({ text, textStyles, containerStyles, icon, url, t='_self' }) {
     return (
         <>
-            <button className={`z-10 rounded-lg px-8 py-3 justify-center flex gap-3 ${containerStyles}`}>
+            <button className={`z-10 rounded-lg  cursor-pointer px-8 py-3 justify-center flex gap-3 ${containerStyles}`}>
                 <a target={t} href={url} download={url!=='#projects'}>
                     <div className={`${textStyles} flex gap-3`}>
                         {text}

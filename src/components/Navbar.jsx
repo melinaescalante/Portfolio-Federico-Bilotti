@@ -1,10 +1,9 @@
-
 export function Navbar() {
   const routes = [
     {
       name: "Home",
       href: "#home",
-      svg: `<svg className="w-6 h-6 text-[#74acff] " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+      svg: `<svg class="w-6 h-6 text-[#74acff] " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                             <path fillRule="evenodd" d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z" clipRule="evenodd" />
                         </svg>`,
     },
@@ -12,16 +11,16 @@ export function Navbar() {
       name: "Technologies",
       href: "#technologies",
       svg: `<svg
-                className="w-7 h-7 text-[#74acff] "
+                class="w-7 h-7 block text-[#74acff] "
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
                 <path
-                  fillRule="evenodd"
+                  fill-rule="evenodd"
                   d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2 9a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z"
-                  clipRule="evenodd"
+                  clip-rule="evenodd"
                 />
               </svg>`,
     },
@@ -29,7 +28,7 @@ export function Navbar() {
       name: "Projects",
       href: "#projects",
       svg: ` <svg
-                className="w-6 h-6 text-[#74acff] "
+                class="w-6 h-6 text-[#74acff] "
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -48,7 +47,7 @@ export function Navbar() {
       name: "Contact",
       href: "#contact",
       svg: ` <svg
-                className="w-6.5 h-6.5 text-[#74acff] "
+                class="w-6.5 h-6.5 text-[#74acff] "
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -68,23 +67,24 @@ export function Navbar() {
     <nav className="shadow-2xl z-50 shadow-stone-900 fixed top-10 inset-x-0 mx-auto bg-[#1a1a1a] py-4 max-w-fit px-8 rounded-lg border-stone-500 border">
       <ul className="  flex font-medium justify-around items-center gap-5 ">
         {routes.map((route) => {
-          return(<li>
-            <a
-              href={route.href}
-              className="font-medium hover:text-[#74acff] transition-colors"
-              title={route.name}
-            >
-              <span className="md:block hidden">{route.name}</span>
+          return (
+            <li>
+              <a
+                href={route.href}
+                className="font-medium hover:text-[#74acff] transition-colors"
+                title={route.name}
+              >
+                <span className="md:block hidden">{route.name}</span>
 
-              <span
-                className="md:hidden block"
-                dangerouslySetInnerHTML={{ __html: route.svg }}
-              ></span>
-              <span className="sr-only">{route.name}</span>
-            </a>
-          </li>)
+                <span
+                  className="md:hidden block"
+                  dangerouslySetInnerHTML={{ __html: route.svg }}
+                ></span>
+                <span className="sr-only">{route.name}</span>
+              </a>
+            </li>
+          );
         })}
-      
       </ul>
     </nav>
   );
