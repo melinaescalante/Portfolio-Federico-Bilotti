@@ -36,7 +36,7 @@ export function ProjectSection() {
     return (
         <AnimatedContent>
 
-            <section id="projects" className="mx-auto max-w-screen-lg py-30 pb-30  px-3.5 flex flex-col gap-8">
+            <section id="projects" className="mx-auto max-w-screen-lg py-24 pb-30  px-3.5 flex flex-col gap-8">
                 <div className="flex flex-wrap gap-5 items-center justify-between ">
 
                     <h1 className="lg:text-5xl text-4xl font-bold">My projects</h1>
