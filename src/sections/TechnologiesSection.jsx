@@ -31,12 +31,7 @@ const technologies = [{
     img:'techs/c-sharp.png',
     background:'bg-[#bf4edd42]'
 },
-{
-    name:'C++',
-    description:'Programming Language',
-    img:'techs/c++.png',
-    background:'bg-[#75a2ef21]'
-},
+
 {
     name:'Python',
     description:'Programming Language',

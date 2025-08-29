@@ -23,7 +23,7 @@ const projects = [{
     name: ' AStar-JobBurst',
     description: 'An optimized implementation of the A* algorithm for Unity, using the Job System and Burst Compiler.',
     img: 'projects/jobBurst.gif',
-    link: 'https://github.com/FedericoBilotti/AStarJobBurst.git',
+    link: 'https://github.com/FedericoBilotti/Pathfinding-Pro',
     techs: [{ name: 'Unity' }, { name: 'C#' }, { name: 'Job System' }, { name: 'Burst Compiler' }]
 },{
     name:'ChatBot Google Calendar',
